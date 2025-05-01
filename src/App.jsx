@@ -6,7 +6,7 @@ import Service from './component/Service'
 import About from './component/About'
 import Money from './component/Money'
 import Map from './component/Map'
-import FooterComp from "./component/footer";
+import FooterComp from "./component/FooterComp";
 
 function App() {
 
