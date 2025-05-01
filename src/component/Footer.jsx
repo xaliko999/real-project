@@ -1,21 +1,21 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Footer.css';
 
 function Footer() {
-    const [email, setEmail] = useState('');
-    const [age, setAge] = useState('');
-    const [name, setName] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [age, setAge] = useState('');
+    // const [name, setName] = useState('');
 
-    const handleSubmit = () => {
-        if (!email || !age || !name) {
-            alert('Iltimos, barcha maydonlarni to‘ldiring!');
-        } else {
-            alert('Muvaffaqiyatli yuborildi!');
-            setEmail('');
-            setAge('');
-            setName('');
-        }
-    };
+    // // const handleSubmit = () => {
+    // //     if (!email || !age || !name) {
+    // //         alert('Iltimos, barcha maydonlarni to‘ldiring!');
+    // //     } else {
+    // //         alert('Muvaffaqiyatli yuborildi!');
+    // //         setEmail('');
+    // //         setAge('');
+    // //         setName('');
+    // //     }
+    // // };
 
     return (
         <footer className="footer" >
@@ -29,13 +29,8 @@ function Footer() {
                     <a href="t.me/mars_1140"><img src="./telegram.png" alt="Facebook" /></a>
                     <a href="https://www.instagram.com/reel/DA0dwz8O4g5/?igsh=MWUzZ3BlZWhxemw0cA%3D%3D"><img src="./inst.png" alt="Instagram" /></a>
                     <a href="https://youtu.be/Pjc3Bd9m7_k?si=QhK9arBFB6oTj82Y"><img src="./yotbe.png" alt="YouTube" /></a><br />
-                </div>
-
-
-              
-             
-            </div>
-         
+                </div> 
+            </div>   
         </footer>
     );
 }

@@ -1,4 +1,3 @@
-import React from 'react'
 import './Money.css'
 
 export default function Money() {

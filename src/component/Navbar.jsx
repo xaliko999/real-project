@@ -1,11 +1,7 @@
-import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-scroll';
 
-
-
 function Navbar() {
-
 
     return (
         <>

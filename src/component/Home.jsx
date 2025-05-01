@@ -8,21 +8,12 @@ import { Typewriter } from 'react-simple-typewriter';
 
 
 function Home() {
-  const MyComponent = () => {
-    return (
-<div id='home'>
-       
-   </div>
-    )
-  }
-
     return (
         <div className='boxx'>
           
    <div className="cardd">
        <div className="leftt">
-        {/*  */}
-        {/*  */}
+  
 
 
 <h1  data-aos="fade-up" data-aos-duration="800">Go to Travel</h1>
