@@ -1,22 +1,6 @@
-import { useState } from 'react';
 import './Footer.css';
 
 function FooterComp() {
-    // const [email, setEmail] = useState('');
-    // const [age, setAge] = useState('');
-    // const [name, setName] = useState('');
-
-    // // const handleSubmit = () => {
-    // //     if (!email || !age || !name) {
-    // //         alert('Iltimos, barcha maydonlarni to‘ldiring!');
-    // //     } else {
-    // //         alert('Muvaffaqiyatli yuborildi!');
-    // //         setEmail('');
-    // //         setAge('');
-    // //         setName('');
-    // //     }
-    // // };
-
     return (
         <footer className="footer" >
 
