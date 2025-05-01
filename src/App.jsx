@@ -1,12 +1,12 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {Route, Routes } from "react-router-dom";
 import Home from './component/Home'
 import Navbar from './component/Navbar'
 import './App.css'
 import Service from './component/Service'
 import About from './component/About'
-import Footer from './component/footer'
 import Money from './component/Money'
 import Map from './component/Map'
+import FooterComp from "./component/footer";
 
 function App() {
 
@@ -21,14 +21,13 @@ function App() {
   <About/><br /><br />  
 
 <Map/>
-    <Footer/>
+<FooterComp/>
 
 
 
 
   <Routes>
     <Route path='/more' element={<Home/>}></Route>
-    
   </Routes>
 
 

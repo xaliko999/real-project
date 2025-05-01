@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Footer.css';
 
-function Footer() {
+function FooterComp() {
     // const [email, setEmail] = useState('');
     // const [age, setAge] = useState('');
     // const [name, setName] = useState('');
@@ -35,4 +35,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default FooterComp;
