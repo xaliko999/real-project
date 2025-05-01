@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
-import { Typewriter } from 'react-simple-typewriter';
+// import { Typewriter } from 'react-simple-typewriter';
 
 
 function Home() {
@@ -20,13 +20,13 @@ function Home() {
 <h3  data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="700" >
-<Typewriter          
+{/* <Typewriter          
         words={[
              ` ${"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas accusantium sequi, animi delectus, magnam sed distinctio porro praesentium maxime ratione consectetur."}`
             ]}
             autoStart={true}
             loop={true}
-            />
+            /> */}
    
 </h3>
 
