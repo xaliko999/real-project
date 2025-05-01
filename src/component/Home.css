@@ -1,0 +1,194 @@
+.boxx{
+    width: 100%;
+    margin: 0 auto;
+    height: 750px;
+    background-image: url('./beach.png');
+    background-repeat: no-repeat;
+    background-size: 100%;   
+    /* border-radius: 15px; */
+    margin-top: -1542px;
+
+}
+.leftt{
+    width: 700px;
+margin-top: 500px;
+margin-left: 200px;
+}
+.right{
+    width: 500px;
+}
+.cardd{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.leftt h1{
+    font-size: 70px;
+    color: yellow;
+    text-shadow: 5px 5px 5px white;
+    text-align: center;
+
+}
+
+.leftt h3{
+  color: yellow;
+  text-shadow: 5px 5px 5px white;
+  text-align: center;
+
+}
+
+.slidee{
+  margin-top: -200px;
+}
+
+
+.btn{
+    background: rgb(27, 27, 109);
+    color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+
+}
+.btn2{
+    background: rgb(216, 247, 249);
+     
+    margin-left: 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+  
+}
+.qiv{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+  margin-top: 50px;
+  border-radius: 40px;
+  border: 5px solid black;
+}
+
+.Button{
+    margin-left: 150px;
+}
+
+.icons{
+  margin-top: 630px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  /* margin-left: 200px; */
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+    
+}
+.in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 340px;
+  height: 420px;
+  margin-top: 230px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}

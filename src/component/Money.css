@@ -1,0 +1,73 @@
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    margin-top: 300px;
+}
+
+.container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.u {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mp {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 4px 10px 10px black;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+.mp:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    background: #f8f9fa;
+}
+
+.mp img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.mp h3 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.mp p {
+    font-size: 14px;
+    color: black;
+}
+
+/* Mobil uchun */
+@media (max-width: 600px) {
+    .u {
+        flex-direction: column;
+        align-items: center;
+    }
+}

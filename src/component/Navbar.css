@@ -1,0 +1,53 @@
+header{
+    width: 1570px;
+    height: 100px;
+    margin-left: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -1450px;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 99;
+    /* margin-top: -5000px; */
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+
+font-weight: bold;
+
+color: black;
+}
+a:hover{
+    color: black;
+    border-radius: 3px;
+transition: 0.5s;
+text-shadow: 0px 0px 20px red;
+
+scroll-margin-bottom: 30px;
+}
+.dib{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+
+div{
+    width: 100%;
+    height: 40px;
+    
+}
+span button{
+    background: none;
+}
+
+
